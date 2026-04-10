@@ -258,7 +258,7 @@ function copyKicadLibrary
 {
 
     #Extract custom KiCad Library
-    tar -xJf library/kicadLibrary.tar.xz
+    #tar -xJf library/kicadLibrary.tar.xz
 
     if [ -d ~/.config/kicad/6.0 ];then
         echo "kicad config folder already exists"
